@@ -23,7 +23,7 @@ public class Magento {
 		String emaildata=p.getProperty("email");
 		String passdata=p.getProperty("password");
 		
-		WebDriver driver=new FirefoxDriver();
+		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
